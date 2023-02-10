@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;0,9..144,900;1,9..144,100&display=swap');
+
+:root {
+--Soft-red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--Dark-desaturated-cyan-graphic-design-text: hsl(167, 40%, 24%);
+--Dark-blue-photography-text: hsl(198, 62%, 26%);
+--Dark-moderate-cyan-footer: hsl(168, 34%, 41%);
+
+/* ### Neutral */
+
+--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+
+/* typography */
+--font-size: 18px;
+--font-barlow: 'Barlow', sans-serif;
+--font-fraunces: 'Fraunces', serif;
+--font-weight-bold: 900;
+--font-weight-semibold: 700;
+}
+
+/* Reset */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Structure */
+
+body {
+    width: 100%;
+    font-size: var(--font-size);
+}
+
+main {
+    width: 100%;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 150px;
+    padding: 2.5em;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav {
+    list-style: none;
+    display: flex;
+    color: var(--White);
+}
+
+header nav li {
+    margin-left: 2.5em;
+    display: inline-block;
+    display: flex;
+    align-self: center;
+    font-size: 1.3em;
+}
+
+header nav button {
+    color: black;
+    border: none;
+    background-color: var(--White);
+    text-transform: uppercase;
+    font-family: var(--font-fraunces);
+    font-weight: var(--font-weight-semibold);
+    font-size: 18px;
+    border-radius: 2em;
+    padding: 1.2em 2em;
+    margin-left: 3.1em;
+}
+
+/* sections */
+/* section 1 */
+
+.full-height-intro {
+    background-image: url(./images/desktop/image-header.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro-title {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    gap: 6em;
+    transform: translateY(-8em);
+}
+
+.intro-title h1 {
+    color: var(--White);
+    text-transform: uppercase;
+    font-size: 3.5em;
+    font-family: var(--font-fraunces);
+    letter-spacing: 15px;
+}
+
+.intro-title img {
+    width: 40px;
+    margin: 0 auto;
+}
