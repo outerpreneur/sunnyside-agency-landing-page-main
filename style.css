@@ -276,3 +276,72 @@ header nav button {
     color: black;
     font-size: 1.1em;
  }
+
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 500px;
+ }
+
+ .gallery-1 {
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .gallery-2 {
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .gallery-3 {
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .gallery-4 {
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ /* footer */
+
+ footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 340px;
+    background-color: rgb(138,210,195);
+ }
+
+ footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+ }
+
+ .footer-logo {
+   width: 9.5rem;
+   max-width: 100%;
+   display: block;
+ }
+
+
+ footer div nav {
+    list-style: none;
+    display: flex;
+    gap: 4em;
+    color: var(--Dark-desaturated-cyan-graphic-design-text);
+    font-family: var(--font-barlow);
+ }
+
+ .social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4em;
+ }
