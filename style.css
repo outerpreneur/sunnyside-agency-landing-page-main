@@ -153,7 +153,8 @@ header nav button {
     justify-content: center;
     flex-direction: column;
     text-align: left;
-    padding: 3.6em 10.6em;
+    padding: 3.6em 0;
+    text-align: center;
 }
 
 .block-inner-content div {
@@ -207,7 +208,7 @@ header nav button {
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    padding: 1.7em;
+    padding: 1.7em 0;
  }
 
  .design-block div div {
@@ -387,6 +388,12 @@ header nav button {
    .full-height-intro {
       background-image: url(./images/mobile/image-header.jpg);
       min-height: 100vh;
+      background-size: cover;
+      background-position: bottom ;
+   }
+   .intro-title {
+      font-size: 0.7em;
+      font-weight: var(--font-weight-bold);
    }
    .transform-block {
       grid-template-columns: 1fr;
@@ -418,6 +425,7 @@ header nav button {
    .testimonials {
       height: 100%;
       padding: 4em 0;
+      gap: 4em;
    }
    .testimonial-row {
       flex-direction: column;
