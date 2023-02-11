@@ -74,6 +74,7 @@ header nav li {
     display: flex;
     align-self: center;
     font-size: 1.3em;
+    cursor: pointer;
 }
 
 header nav button {
@@ -87,6 +88,7 @@ header nav button {
     border-radius: 2em;
     padding: 1.2em 2em;
     margin-left: 3.1em;
+    cursor: pointer;
 }
 
 /* sections */
@@ -122,6 +124,7 @@ header nav button {
 .intro-title img {
     width: 40px;
     margin: 0 auto;
+    cursor: pointer;
 }
 
 /* section 2 */
@@ -174,6 +177,7 @@ header nav button {
     font-family: var(--font-fraunces);
     font-weight: var(--font-weight-bold);
     text-decoration: underline var(--Soft-red) 8px;
+    cursor: pointer;
 }
 
  /* section 2.3  */
@@ -229,12 +233,12 @@ header nav button {
 
  .testimonials {
     background-color: var(--White);
-    height: 750px;
+    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4em;
+    gap: 8.6em;
  }
 
  .testimonials h4 {
@@ -242,6 +246,7 @@ header nav button {
     color: var(--Dark-grayish-blue);
     text-transform: uppercase;
     font-size: 1.3em;
+    letter-spacing: 4px;
  }
 
  .testimonial-row {
@@ -256,8 +261,9 @@ header nav button {
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 3em;
+    gap: 2em;
  }
+
 
  .testimonial-user img {
     width: 85px;
@@ -275,12 +281,17 @@ header nav button {
     font-weight: var(--font-weight-bold);
     color: black;
     font-size: 1.1em;
+    margin-bottom: 1em;
+ }
+
+ .testimonial-user h6 {
+   color: var(--Dark-grayish-blue);
  }
 
  .gallery {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    height: 500px;
+    height: 520px;
  }
 
  .gallery-1 {
@@ -322,26 +333,37 @@ header nav button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3em;
  }
-
- .footer-logo {
-   width: 9.5rem;
-   max-width: 100%;
-   display: block;
- }
-
 
  footer div nav {
+   margin-top: 1em;
     list-style: none;
+    font-size: 22px;
     display: flex;
-    gap: 4em;
+    gap: 3em;
     color: var(--Dark-desaturated-cyan-graphic-design-text);
     font-family: var(--font-barlow);
  }
 
+ footer div nav li {
+   cursor: pointer;
+ }
+
+ footer div nav li:hover {
+   color: var(--White);
+ }
+
  .social-icons {
+   margin-top: 5em;
     display: flex;
     flex-direction: row;
-    gap: 1.4em;
+    gap: 1.8em;
+ }
+
+ .social-icons a svg {
+   cursor: pointer;
+ }
+
+ .social-icons a svg:hover > path {
+   fill: var(--White);
  }
