@@ -378,6 +378,13 @@ header nav button {
  }
 
  @media (max-width: 700px) {
+   header {
+      padding: 1em;
+      height: 120px;
+   }
+   .logo {
+      width: 180px;
+   }
    .menu-nav {
       display: none;
    }
@@ -397,6 +404,13 @@ header nav button {
    }
    .transform-block {
       grid-template-columns: 1fr;
+   }
+   .block-inner-content {
+      width: 80%;
+      margin: 0 auto;
+   }
+   .block-inner-content h2 {
+      font-size: 2.4em;
    }
    .transform-block img {
       order: 1;
@@ -422,6 +436,9 @@ header nav button {
       background-image: url(./images/mobile/image-photography.jpg);
       background-position: bottom;
       height: 100vh;
+   }
+   .design-block div div p {
+      width: 80%;
    }
    .testimonials {
       height: 100%;
