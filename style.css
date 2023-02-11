@@ -383,7 +383,7 @@ header nav button {
    }
    .menu-icon-mobile {
       display: block;
-      width: 40px;
+      width: 35px;
    }
    .full-height-intro {
       background-image: url(./images/mobile/image-header.jpg);
@@ -420,6 +420,7 @@ header nav button {
    }
    .photography-block {
       background-image: url(./images/mobile/image-photography.jpg);
+      background-position: bottom;
       height: 100vh;
    }
    .testimonials {
