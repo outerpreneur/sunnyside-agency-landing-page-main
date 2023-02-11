@@ -451,6 +451,7 @@ header nav button {
    }
    .gallery {
       grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2,1fr);
    }
    .gallery-1 {
       background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
