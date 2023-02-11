@@ -119,6 +119,7 @@ header nav button {
     font-size: 3.5em;
     font-family: var(--font-fraunces);
     letter-spacing: 15px;
+    text-align: center;
 }
 
 .intro-title img {
@@ -366,4 +367,83 @@ header nav button {
 
  .social-icons a svg:hover > path {
    fill: var(--White);
+ }
+
+
+ /* utilities */
+
+ .hidden {
+   display: none;
+ }
+
+ @media (max-width: 700px) {
+   .menu-nav {
+      display: none;
+   }
+   .menu-icon-mobile {
+      display: block;
+      width: 40px;
+   }
+   .full-height-intro {
+      background-image: url(./images/mobile/image-header.jpg);
+      min-height: 100vh;
+   }
+   .transform-block {
+      grid-template-columns: 1fr;
+   }
+   .transform-block img {
+      order: 1;
+      background-image: url(./images/mobile/image-transform.jpg);
+   }
+   .transform-block div {
+      order: 2;
+   }
+   .stand-out-block {
+      grid-template-columns: 1fr;
+   }
+   .stand-out-block img {
+      background-image: url(./images/mobile/image-stand-out.jpg);
+   }
+   .design-block {
+      grid-template-columns: 1fr;
+   }
+   .graphic-block {
+      background-image: url(./images/mobile/image-graphic-design.jpg);
+      height: 100vh;
+   }
+   .photography-block {
+      background-image: url(./images/mobile/image-photography.jpg);
+      height: 100vh;
+   }
+   .testimonials {
+      height: 100%;
+      padding: 4em 0;
+   }
+   .testimonial-row {
+      flex-direction: column;
+      gap: 3.5em;
+   }
+   .gallery {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .gallery-1 {
+      background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+      height: auto;
+      width: auto;
+   }
+   .gallery-2 {
+      background-image: url(./images/mobile/image-gallery-orange.jpg);
+      height: auto;
+      width: auto;
+   }
+   .gallery-3 {
+      background-image: url(./images/mobile/image-gallery-cone.jpg);
+      height: auto;
+      width: auto;
+   }
+   .gallery-4 {
+      background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+      height: auto;
+      width: auto;
+   }
  }
