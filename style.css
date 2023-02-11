@@ -148,13 +148,21 @@ header nav button {
     width: 100%;
 }
 
-.block-inner-content:first-of-type  {
+.block-inner-content  {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: left;
+    text-align: left !important;
     padding: 3.6em 0;
     text-align: center;
+}
+
+.margin-right {
+   margin-right: 4em;
+}
+
+.margin-left {
+   margin-left: 6em;
 }
 
 .block-inner-content div {
@@ -265,8 +273,6 @@ header nav button {
     align-items: center;
     gap: 2em;
  }
-
-
  .testimonial-user img {
     width: 85px;
     border-radius: 50%;
@@ -408,6 +414,7 @@ header nav button {
    .block-inner-content {
       width: 80%;
       margin: 0 auto;
+      text-align: center !important;
    }
    .block-inner-content h2 {
       font-size: 2.4em;
@@ -472,5 +479,11 @@ header nav button {
       background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
       height: auto;
       width: auto;
+   }
+   .margin-left {
+      margin-left: 0;
+   }
+   .margin-right {
+      margin-right: 0;
    }
  }
