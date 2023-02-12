@@ -431,9 +431,9 @@ header nav button {
 
  .social-icons {
    margin-top: 5em;
-    display: flex;
-    flex-direction: row;
-    gap: 1.8em;
+   display: flex;
+   flex-direction: row;
+   gap: 1.8em;
  }
 
  .social-icons a svg {
@@ -563,4 +563,9 @@ header nav button {
    .margin-right {
       margin-right: 0;
    }
+
+   footer div nav {
+      gap: 1.2em;
+    }
+
  }
