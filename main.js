@@ -14,12 +14,14 @@ const toggleHeader = () => {
     const pixels = window.pageYOffset
     if (pixels >60) {
         headerTag.classList.add('scrolled')
+        headerTag.style.height = '75px'
         headerNav.style.color = '#000000'
         headerBtn.style.backgroundColor = 'hsl(51, 100%, 49%)'
         logoTag.style.fill = '#000000'
         menuMobileIconPath.style.fill = '#000000'
     } else {
         headerTag.classList.remove('scrolled')
+        headerTag.style.height = '150px'
         headerNav.style.color = '#ffffff'
         headerBtn.style.backgroundColor = '#fff'
         logoTag.style.fill = '#fff'
