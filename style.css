@@ -137,6 +137,7 @@ header nav button {
 
 .transform-block img {
     width: 100%;
+    height: 100%;
 }
 
 .stand-out-block {
@@ -146,6 +147,7 @@ header nav button {
 
 .stand-out-block img {
     width: 100%;
+    height: 100%;
 }
 
 .block-inner-content  {
@@ -158,11 +160,11 @@ header nav button {
 }
 
 .margin-right {
-   margin-right: 8em;
+   margin-right: 15%;
 }
 
 .margin-left {
-   margin-left: 10em;
+   margin-left: 18%;
 }
 
 .block-inner-content div {
