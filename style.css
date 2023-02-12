@@ -158,11 +158,11 @@ header nav button {
 }
 
 .margin-right {
-   margin-right: 4em;
+   margin-right: 8em;
 }
 
 .margin-left {
-   margin-left: 6em;
+   margin-left: 10em;
 }
 
 .block-inner-content div {
@@ -195,6 +195,7 @@ header nav button {
  .design-block {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+   
  }
 
  .graphic-block {
@@ -223,9 +224,9 @@ header nav button {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 2.5em;
+    gap: 1.7em;
     text-align: center;
-    width:480px
+    width:400px
  }
 
  .design-block div div h3 {
@@ -236,19 +237,19 @@ header nav button {
  .design-block div div p {
     font-family: var(--font-barlow);
     font-size: 1em;
-    line-height: 1.7em;
+    line-height: 1.5em;
  } 
 
  /* section 4 */
 
  .testimonials {
     background-color: var(--White);
-    height: 900px;
+    height: 920px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8.6em;
+    gap: 1em;
  }
 
  .testimonials h4 {
@@ -257,6 +258,7 @@ header nav button {
     text-transform: uppercase;
     font-size: 1.3em;
     letter-spacing: 4px;
+    transform: translateY(-60px);
  }
 
  .testimonial-row {
@@ -271,7 +273,8 @@ header nav button {
     text-align: center;
     display: flex;
     align-items: center;
-    gap: 2em;
+    gap: 4em;
+    transform: translateY(40px);
  }
  .testimonial-user img {
     width: 85px;
