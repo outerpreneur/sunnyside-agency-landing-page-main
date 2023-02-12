@@ -55,10 +55,11 @@ header {
     align-items: center;
     height: 150px;
     padding: 2.5em;
+    z-index: 1;
 }
 
-header img {
-    width: 200px;
+header svg {
+    width: 300px;
 }
 
 header nav {
@@ -94,7 +95,7 @@ header nav button {
 /* menu mobile */
 
 .menu-mobile {
-   position: absolute;
+   position: fixed;
    width: 100%;
    display: flex;
    justify-content: center;
@@ -124,7 +125,7 @@ header nav button {
    width: 90%;
    margin: 0 auto;
    height: 400px;
-   z-index: 1;
+   z-index: 100;
    transform: translateY(-40px);
 }
 .menu-mobile-container nav {
@@ -150,6 +151,7 @@ header nav button {
    font-family: var(--font-fraunces);
    cursor: pointer;
    color: #000000;
+   transition: 5s background-color ease;
 }
 
 .menu-mobile-container nav li {
@@ -453,6 +455,11 @@ header nav button {
    display: none;
  }
 
+ .scrolled {
+   background-color: var(--White);
+   transition: background-color 1s ease;
+ }
+
  @media (max-width: 900px) {
    header {
       padding: 1em;
@@ -468,6 +475,7 @@ header nav button {
       display: block;
       width: 35px;
       cursor: pointer;
+      z-index: 2;
    }
    .full-height-intro {
       background-image: url(./images/mobile/image-header.jpg);
