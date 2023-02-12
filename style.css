@@ -102,6 +102,23 @@ header nav button {
    height: 600px;
    margin-top: 100px;
 }
+
+/* .menu-mobile::after {
+   content: "";
+   position: absolute;
+   margin-top: -25%;
+   top: 0;
+   right: 0;
+   width: 0;
+   height: 0;
+   transform: translate(0, 10%);
+   background-color: white;
+   border-left: 40px solid transparent;
+   border-bottom: 40px solid transparent;
+   border-top: 40px solid transparent;
+   border-right: 40px solid var(--white);
+} */
+
 .menu-mobile-container {
    background-color: var(--White);
    width: 90%;
