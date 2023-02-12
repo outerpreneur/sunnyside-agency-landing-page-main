@@ -91,6 +91,51 @@ header nav button {
     cursor: pointer;
 }
 
+/* menu mobile */
+
+.menu-mobile {
+   position: absolute;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 800px;
+   z-index: 1;
+}
+.menu-mobile-container {
+   background-color: var(--White);
+   width: 90%;
+   margin: 0 auto;
+   height: 400px;
+}
+.menu-mobile-container nav {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 100%;
+   font-weight: 500;
+   font-family: var(--font-barlow);
+   font-size: 1.2em;
+   color: var(--Dark-grayish-blue);
+}
+.menu-mobile-container nav button {
+   background-color: var(--Yellow);
+   border-radius: 45px;
+   border: none;
+   padding: 1.3em 2em;
+   font-size: 1em;
+   font-weight: var(--font-weight-bold);
+   text-transform: uppercase;
+   font-family: var(--font-fraunces);
+   cursor: pointer;
+}
+
+.menu-mobile-container nav li {
+   cursor: pointer;
+}
+
 /* sections */
 
 /* section 1 */
@@ -402,6 +447,7 @@ header nav button {
    .menu-icon-mobile {
       display: block;
       width: 35px;
+      cursor: pointer;
    }
    .full-height-intro {
       background-image: url(./images/mobile/image-header.jpg);
