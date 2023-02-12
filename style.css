@@ -522,11 +522,15 @@ header nav button {
    .testimonials {
       height: 100%;
       padding: 4em 0;
-      gap: 4em;
+      gap: 1em;
+   }
+   .testimonials h4 {
+      margin-top: 2.5em;
    }
    .testimonial-row {
       flex-direction: column;
       gap: 3.5em;
+      margin-bottom: 2.5em;
    }
    .gallery {
       grid-template-columns: repeat(2, 1fr);
