@@ -102,6 +102,7 @@ header nav button {
    align-items: center;
    height: 600px;
    margin-top: 100px;
+   z-index: 100;
 }
 
 /* .menu-mobile::after {
@@ -125,7 +126,6 @@ header nav button {
    width: 90%;
    margin: 0 auto;
    height: 400px;
-   z-index: 100;
    transform: translateY(-40px);
 }
 .menu-mobile-container nav {
