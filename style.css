@@ -154,6 +154,7 @@ header nav button {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: bottom;
 }
 
 .intro-title {
