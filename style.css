@@ -100,7 +100,7 @@ header nav button {
    justify-content: center;
    align-items: center;
    height: 600px;
-   margin-top: 50px;
+   margin-top: 100px;
 }
 
 /* .menu-mobile::after {
@@ -125,6 +125,7 @@ header nav button {
    margin: 0 auto;
    height: 400px;
    z-index: 1;
+   transform: translateY(-40px);
 }
 .menu-mobile-container nav {
    list-style: none;
@@ -535,8 +536,8 @@ header nav button {
       margin-bottom: 2.5em;
    }
    .gallery {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2,1fr);
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
    }
    .gallery-1 {
       background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
