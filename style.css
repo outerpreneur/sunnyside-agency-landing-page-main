@@ -291,7 +291,7 @@ header nav button {
     justify-content: flex-end;
     gap: 1.7em;
     text-align: center;
-    width:400px
+    width:50%;
  }
 
  .design-block div div h3 {
@@ -503,6 +503,9 @@ header nav button {
    }
    .design-block {
       grid-template-columns: 1fr;
+   }
+   .design-block div div {
+      width: 80%;
    }
    .graphic-block {
       background-image: url(./images/mobile/image-graphic-design.jpg);
