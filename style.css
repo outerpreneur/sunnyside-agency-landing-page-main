@@ -100,7 +100,7 @@ header nav button {
    justify-content: center;
    align-items: center;
    height: 600px;
-   margin-top: 100px;
+   margin-top: 50px;
 }
 
 /* .menu-mobile::after {
@@ -148,6 +148,7 @@ header nav button {
    text-transform: uppercase;
    font-family: var(--font-fraunces);
    cursor: pointer;
+   color: #000000;
 }
 
 .menu-mobile-container nav li {
